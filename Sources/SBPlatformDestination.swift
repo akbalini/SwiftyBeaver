@@ -52,7 +52,7 @@ public class SBPlatformDestination: BaseDestination {
         public var info = 5
         public var warning = 8
         public var error = 10
-        public var threshold = 10  // send to server if points reach that value
+        public var threshold = 1  // send to server if points reach that value
     }
     public var sendingPoints = SendingPoints()
     public var showNSLog = false // executes toNSLog statements to debug the class
